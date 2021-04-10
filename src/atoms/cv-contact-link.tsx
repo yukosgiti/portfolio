@@ -1,6 +1,6 @@
 import { Button } from "@chakra-ui/button";
 import { useClipboard } from "@chakra-ui/hooks";
-import { HStack, LinkBox, LinkOverlay, Text } from "@chakra-ui/layout";
+import { HStack, LinkBox, LinkOverlay } from "@chakra-ui/layout";
 import { useToast } from "@chakra-ui/toast";
 import React, { createElement } from "react";
 import { IconType } from "react-icons";
@@ -36,6 +36,7 @@ export const CvContactLink = ({ icon, src, copy }: Props) => {
             <Button
               variant="link"
               colorScheme="blue"
+              tabIndex={copy ? undefined : -1}
               onClick={handleCopyLinkToClipboard}
             >
               {src}

@@ -15,9 +15,10 @@ export const Header = ({}: HeaderProps) => {
       px={["10%", "25%"]}
       alignItems={"center"}
       justifyContent={"space-between"}
-      backgroundColor={
-        isDarkMode ? theme.colors.blackAlpha[500] : theme.colors.blackAlpha[300]
-      }
+      backgroundColor={isDarkMode ? theme.colors.black : theme.colors.white}
+      zIndex={99}
+      pos="sticky"
+      top={0}
     >
       <Text
         fontWeight={theme.fontWeights.semibold}

@@ -21,8 +21,8 @@ const projects: Project[] = [
     date: new Date(2017, 12, 15),
     title: "Chess Application",
     description:
-      "This is my final project for the CET301 course. It's an online Chess application that utilises sockets.",
-    tags: [Tag.DotNet],
+      "This is my final project for the CET301 course. It's an online Chess client and server implementation that utilises sockets.",
+    tags: [Tag.DotNet, Tag.MSSQL],
     images: [images.chessHomePath],
   },
   {

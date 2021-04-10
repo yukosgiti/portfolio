@@ -1,13 +1,16 @@
+import { useColorMode } from "@chakra-ui/color-mode";
 import { Box, Flex, Heading, Text, VStack } from "@chakra-ui/layout";
 import theme from "@chakra-ui/theme";
 import React from "react";
-import { data, images, locale } from "../resources";
 import { FiGithub, FiLinkedin, FiMail } from "react-icons/fi";
 import { CvContactLink } from "../atoms";
+import { data, images, locale } from "../resources";
 
 interface Props {}
 
 export const AboutMe = ({}: Props) => {
+  const { colorMode } = useColorMode();
+  const isDarkMode = colorMode === "dark";
   const dateOfBirth = new Date(data.user.birthday);
 
   const getAge = (birthDate: Date) =>
@@ -16,7 +19,12 @@ export const AboutMe = ({}: Props) => {
     );
 
   return (
-    <Flex alignItems="center" justifyContent="center" py={theme.space[36]}>
+    <Flex
+      alignItems="center"
+      justifyContent="center"
+      py={theme.space[36]}
+      backgroundColor={isDarkMode ? "#222224" : theme.colors.gray[200]}
+    >
       <Box
         w={"25vmin"}
         h={"25vmin"}
