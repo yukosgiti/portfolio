@@ -1,21 +1,27 @@
 {
   "files": {
-    "main.js": "/portfolio/static/js/main.3a870a1f.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.3a870a1f.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.e1ad164c.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.e1ad164c.js.map",
-    "static/js/2.5a26ca72.chunk.js": "/portfolio/static/js/2.5a26ca72.chunk.js",
-    "static/js/2.5a26ca72.chunk.js.map": "/portfolio/static/js/2.5a26ca72.chunk.js.map",
-    "static/js/3.a7937f9f.chunk.js": "/portfolio/static/js/3.a7937f9f.chunk.js",
-    "static/js/3.a7937f9f.chunk.js.map": "/portfolio/static/js/3.a7937f9f.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.87685faf.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.87685faf.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.331aa001.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.331aa001.js.map",
+    "static/js/2.47644a87.chunk.js": "/portfolio/static/js/2.47644a87.chunk.js",
+    "static/js/2.47644a87.chunk.js.map": "/portfolio/static/js/2.47644a87.chunk.js.map",
+    "static/js/3.bbfbfa0e.chunk.js": "/portfolio/static/js/3.bbfbfa0e.chunk.js",
+    "static/js/3.bbfbfa0e.chunk.js.map": "/portfolio/static/js/3.bbfbfa0e.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/js/2.5a26ca72.chunk.js.LICENSE.txt": "/portfolio/static/js/2.5a26ca72.chunk.js.LICENSE.txt",
+    "static/js/2.47644a87.chunk.js.LICENSE.txt": "/portfolio/static/js/2.47644a87.chunk.js.LICENSE.txt",
+    "static/media/8read-content.caa048e3.jpg": "/portfolio/static/media/8read-content.caa048e3.jpg",
+    "static/media/chess-home.ea721fb0.jpg": "/portfolio/static/media/chess-home.ea721fb0.jpg",
     "static/media/pasha.28981bd5.png": "/portfolio/static/media/pasha.28981bd5.png",
-    "static/media/pp.ad8a6c6b.jpg": "/portfolio/static/media/pp.ad8a6c6b.jpg"
+    "static/media/plate-recognition.9ac28ac2.jpg": "/portfolio/static/media/plate-recognition.9ac28ac2.jpg",
+    "static/media/pp.ad8a6c6b.jpg": "/portfolio/static/media/pp.ad8a6c6b.jpg",
+    "static/media/sakar-asistan.bbbe115c.jpg": "/portfolio/static/media/sakar-asistan.bbbe115c.jpg",
+    "static/media/tf-idf.0895b12e.jpg": "/portfolio/static/media/tf-idf.0895b12e.jpg",
+    "static/media/wifm-home.c474f0dd.jpg": "/portfolio/static/media/wifm-home.c474f0dd.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.e1ad164c.js",
-    "static/js/2.5a26ca72.chunk.js",
-    "static/js/main.3a870a1f.chunk.js"
+    "static/js/runtime-main.331aa001.js",
+    "static/js/2.47644a87.chunk.js",
+    "static/js/main.87685faf.chunk.js"
   ]
 }
