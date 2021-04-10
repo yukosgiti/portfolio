@@ -26,6 +26,7 @@ export const CvContactLink = ({ icon, src, copy }: Props) => {
     <React.Fragment>
       <LinkBox>
         <LinkOverlay
+          aria-label={`Go to ${src}`}
           href={copy ? undefined : src}
           target={copy ? undefined : "__blank"}
           referrerPolicy="no-referrer-when-downgrade"

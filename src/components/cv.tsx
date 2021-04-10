@@ -1,6 +1,6 @@
 import { useColorMode, Flex, theme } from "@chakra-ui/react";
 import React from "react";
-import { Header, AboutMe } from ".";
+import { Header, AboutMe, Projects } from ".";
 
 interface Props {}
 
@@ -19,6 +19,7 @@ export const Cv = ({}: Props) => {
       >
         <AboutMe />
         <Header />
+        <Projects />
       </Flex>
     </React.Fragment>
   );

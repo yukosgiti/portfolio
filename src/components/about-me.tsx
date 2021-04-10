@@ -21,6 +21,7 @@ export const AboutMe = ({}: Props) => {
         w={"25vmin"}
         h={"25vmin"}
         backgroundPosition="center"
+        aria-label="Photo of me."
         backgroundSize="contain"
         mr={theme.space[10]}
         borderRadius={theme.radii.full}
