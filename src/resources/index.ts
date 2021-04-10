@@ -1,5 +1,5 @@
 import dataJson from "./data.json";
-import eightReadContentPath from "./images/8read-content.png";
+import eightReadContentPath from "./images/8read-content.jpg";
 import chessHomePath from "./images/chess-home.jpg";
 import pashaPath from "./images/pasha.png";
 import ppPath from "./images/pp.jpg";

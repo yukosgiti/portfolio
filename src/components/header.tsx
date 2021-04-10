@@ -1,6 +1,5 @@
 import { Flex, HStack, Text, theme, useColorMode } from "@chakra-ui/react";
 import React from "react";
-import { CvButton } from "../atoms";
 import { ColorModeSwitcher } from "../ColorModeSwitcher";
 import { locale } from "../resources";
 
@@ -27,8 +26,8 @@ export const Header = ({}: HeaderProps) => {
         {locale.header.siteName}
       </Text>
       <HStack>
-        <CvButton text={locale.header.about} />
-        <CvButton text={locale.header.projects} />
+        {/* <CvButton text={locale.header.about} /> */}
+        {/* <CvButton text={locale.header.projects} /> */}
         <ColorModeSwitcher justifySelf="flex-end" />
       </HStack>
     </Flex>

@@ -14,7 +14,7 @@ export const Cv = ({}: Props) => {
         fontSize="xl"
         minH="100vh"
         direction="column"
-        w={"100%"}
+        minW={"100%"}
         backgroundColor={isDarkMode ? "#151619" : theme.colors.white}
       >
         <Header />

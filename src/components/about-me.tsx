@@ -22,22 +22,31 @@ export const AboutMe = ({}: Props) => {
     <Flex
       alignItems="center"
       justifyContent="center"
-      py={theme.space[36]}
+      flexDir={["column", "row"]}
+      py={[theme.space[16], theme.space[36]]}
       backgroundColor={isDarkMode ? "#222224" : theme.colors.gray[200]}
     >
       <Box
-        w={"25vmin"}
-        h={"25vmin"}
+        w={["50vmin", "30vmin"]}
+        h={["50vmin", "30vmin"]}
         backgroundPosition="center"
         aria-label="Photo of me."
         backgroundSize="contain"
-        mr={theme.space[10]}
         borderRadius={theme.radii.full}
+        mx={[0, theme.space[10]]}
         backgroundImage={`url(${images.ppPath})`}
       ></Box>
       <VStack alignItems={"flex-start"}>
-        <Heading>{locale.aboutMe.hello}</Heading>
-        <Text opacity={0.9}>
+        <Heading
+          fontSize={[
+            theme.fontSizes["2xl"],
+            theme.fontSizes["3xl"],
+            theme.fontSizes["4xl"],
+          ]}
+        >
+          {locale.aboutMe.hello}
+        </Heading>
+        <Text opacity={0.9} fontSize={[theme.fontSizes.md, theme.fontSizes.lg]}>
           {getAge(dateOfBirth) + " yaşında meraklı bir yazılımcıyım. "}
         </Text>
         <CvContactLink icon={FiLinkedin} src={data.user.links.linkedin} />
