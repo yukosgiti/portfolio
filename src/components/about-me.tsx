@@ -1,5 +1,6 @@
 import { useColorMode } from "@chakra-ui/color-mode";
-import { Box, Flex, Heading, Text, VStack } from "@chakra-ui/layout";
+import { Image } from "@chakra-ui/image";
+import { Flex, Heading, Text, VStack } from "@chakra-ui/layout";
 import theme from "@chakra-ui/theme";
 import React from "react";
 import { FiGithub, FiLinkedin, FiMail } from "react-icons/fi";
@@ -26,16 +27,14 @@ export const AboutMe = ({}: Props) => {
       py={[theme.space[16], theme.space[36]]}
       backgroundColor={isDarkMode ? "#222224" : theme.colors.gray[200]}
     >
-      <Box
+      <Image
         w={["50vmin", "30vmin"]}
         h={["50vmin", "30vmin"]}
-        backgroundPosition="center"
         aria-label="Photo of me."
-        backgroundSize="contain"
+        src={images.ppPath}
         borderRadius={theme.radii.full}
         mx={[0, theme.space[10]]}
-        backgroundImage={`url(${images.ppPath})`}
-      ></Box>
+      />
       <VStack alignItems={"flex-start"}>
         <Heading
           fontSize={[

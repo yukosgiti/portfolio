@@ -34,6 +34,15 @@ const projects: Project[] = [
     tags: [Tag.DotNetCore, Tag.MSSQL, Tag.HTML, Tag.CSS, Tag.JavaScript],
     images: [images.eightReadContentPath],
   },
+  {
+    type: ProjectType.School,
+    date: new Date(2019, 5, 11),
+    title: "Sakar Asistan",
+    description:
+      "8Read is my final project for my CET472 course. It's an educational game that teaches properties of matter.",
+    tags: [Tag.Unity3D],
+    images: [images.sakarAsistanPath],
+  },
 ];
 export const Projects = ({}: Props) => {
   return (

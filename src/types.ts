@@ -6,6 +6,7 @@ export enum Tag {
   MSSQL = "MSSQL",
   DotNetCore = ".NetCore",
   DotNet = ".Net",
+  Unity3D = "Unity3D",
 }
 
 export enum ProjectType {

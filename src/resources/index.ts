@@ -3,6 +3,7 @@ import eightReadContentPath from "./images/8read-content.jpg";
 import chessHomePath from "./images/chess-home.jpg";
 import pashaPath from "./images/pasha.png";
 import ppPath from "./images/pp.jpg";
+import sakarAsistanPath from "./images/sakar-asistan.jpg";
 import wifmHomePath from "./images/wifm-home.jpg";
 import localeJson from "./locale.json";
 export const images = {
@@ -11,6 +12,7 @@ export const images = {
   wifmHomePath,
   eightReadContentPath,
   chessHomePath,
+  sakarAsistanPath,
 };
 
 export const locale = localeJson;
