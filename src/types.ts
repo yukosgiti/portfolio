@@ -4,9 +4,17 @@ export enum Tag {
   JavaScript = "JavaScript",
   TypeScript = "TypeScript",
   MSSQL = "MSSQL",
+  DotNetCore = ".NetCore",
+  DotNet = ".Net",
 }
 
+export enum ProjectType {
+  School = "school",
+  Work = "work",
+  Personal = "personal",
+}
 export interface Project {
+  type: ProjectType;
   date: Date;
   title: string;
   description: string;
