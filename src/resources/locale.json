@@ -1,0 +1,11 @@
+{
+  "header": {
+    "siteName": "Portfolyom",
+    "about": "Hakkımda",
+    "projects": "Projelerim",
+    "workExperience": "İş Geçmişim"
+  },
+  "aboutMe": {
+    "hello": "Merhaba, ben Yüksel."
+  }
+}
