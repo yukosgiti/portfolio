@@ -43,7 +43,7 @@ const projects: Project[] = [
     date: new Date(2019, 5, 11),
     title: "Movie Suggestion",
     description:
-      "This project was for my CMPE493 course. It creates movie suggestions given a set of liked movies. It calculates and compares the cosine similarity of liked movies and the imdb movies dataset based on their tf-idf scores. It isn't very pretty but it works :)",
+      "This project was for my CMPE493 course. It creates movie suggestions given a set of liked movies. It calculates and compares the cosine similarity of liked movies and the IMBd movies dataset based on their tf-idf scores. It isn't very pretty but it works :)",
     tags: [Tag.Python],
     images: [images.tfIdfPath],
   },
