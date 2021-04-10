@@ -1,12 +1,12 @@
 {
   "header": {
-    "siteName": "Portfolyom",
-    "about": "Hakkımda",
-    "projects": "Projelerim",
-    "workExperience": "İş Geçmişim"
+    "siteName": "My Portfolio",
+    "about": "About Me",
+    "projects": "My Projects",
+    "workExperience": "Work Experience"
   },
   "aboutMe": {
-    "hello": "Merhaba, ben Yüksel."
+    "hello": "Hello, I'm Yüksel."
   },
   "projects": {}
 }

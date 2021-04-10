@@ -46,7 +46,7 @@ export const AboutMe = ({}: Props) => {
           {locale.aboutMe.hello}
         </Heading>
         <Text opacity={0.9} fontSize={[theme.fontSizes.md, theme.fontSizes.lg]}>
-          {getAge(dateOfBirth) + " yaşında meraklı bir yazılımcıyım. "}
+          {`I'm a curious ${getAge(dateOfBirth)} year old developer.`}
         </Text>
         <CvContactLink icon={FiLinkedin} src={data.user.links.linkedin} />
         <CvContactLink icon={FiGithub} src={data.user.links.github} />
